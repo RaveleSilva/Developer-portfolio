@@ -5,19 +5,22 @@
   --c0: #FCFCFC;
   --c1: #D6D6D6;
   --c2: #676767;
-  --c3: black;
+  --c3: #0B0B0B;
+  --c4: black;
 }
 
 .p1 {
   color: var(--primary);
 }
-
 .p2 {
   color: var(--primary2);
 }
 
 .c0 {
   color: var(--c0);
+}
+.c1 {
+  color: var(--c1);
 }
 .c2 {
   color: var(--c2);
