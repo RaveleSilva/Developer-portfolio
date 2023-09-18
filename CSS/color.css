@@ -1,0 +1,30 @@
+:root{
+  --primary: #988FFF;
+  --primary2: #C2C8FF;
+
+  --c0: #FCFCFC;
+  --c1: #D6D6D6;
+  --c2: #676767;
+  --c3: black;
+}
+
+.p1 {
+  color: var(--primary);
+}
+
+.p2 {
+  color: var(--primary2);
+}
+
+.c0 {
+  color: var(--c0);
+}
+.c2 {
+  color: var(--c2);
+}
+.c3 {
+  color: var(--c3);
+}
+.c4 {
+  color: var(--c4);
+}
