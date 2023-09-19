@@ -16,10 +16,29 @@ img {
   display: block;
 }
 
+button{
+  width: max-content;
+}
+
 .container {
   max-width: 1440px;
   padding: 20px 40px;
   margin: auto;
+}
+
+.modal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 997;
+  display: none;
+}
+
+.modal.active{
+  display: initial;
 }
 
 @media (max-width: 750px){

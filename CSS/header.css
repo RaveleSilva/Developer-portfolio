@@ -13,7 +13,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
   right: 20px;
   z-index: 999;
 }
@@ -67,21 +66,23 @@
 
   .menu-mobile.active {
     background-image: url(../img/menu-close.svg);
+    position: fixed;
   }
 
   .header nav{
-    position: absolute;
+    position: fixed;
     right: 0px;
     top: 0px;
     padding-top: 150px;
     width: 0px;
     overflow: hidden;
     transition: 0.6s;
-    height: 100vh;
+    height: 100%;
     background-color: black;
     opacity: 0;
     align-items: center;
     gap: 20px;
+    z-index: 998;
   }
 
   .header nav.active{

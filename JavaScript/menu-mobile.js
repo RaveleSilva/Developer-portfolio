@@ -3,9 +3,10 @@ export default function menuMobile() {
   const menuNav = document.querySelector('.header nav');
   const header = document.querySelector('.header');
   const socialHeader = document.querySelector('.social-header');
+  const modal = document.querySelector('.modal')
 
   function inserirSocialHeader() {
-    if (window.innerWidth < 750) {
+    if (window.innerWidth <= 750) {
       menuNav.appendChild(socialHeader);
     } else if (menuNav.contains(socialHeader)) {
       menuNav.removeChild(socialHeader);
@@ -17,6 +18,7 @@ export default function menuMobile() {
   function openMenu() {
     menuNav.classList.toggle('active');
     menuButton.classList.toggle('active');
+    modal.classList.toggle('active')
   }
 
   menuButton.addEventListener('click', openMenu);
