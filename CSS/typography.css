@@ -1,5 +1,5 @@
 .font-1 {
-  font: 600 1.25rem 'Raleway', sans-serif;
+  font: 600 1rem 'Raleway', sans-serif;
 }
 .font-2n {
   font: 400 1.25rem/1.5 'Raleway', sans-serif;
@@ -18,19 +18,19 @@
 }
 
 .font-5n{
-  font: 400 3.25rem 'Raleway', sans-serif;
+  font: 400 2.75rem 'Raleway', sans-serif;
 }
 
-.font-5n{
-  font: 400 3.25rem 'Raleway', sans-serif;
+.font-5m{
+  font: 500 2.75rem 'Raleway', sans-serif;
 }
 
 .font-6n{
   font: 400 3.75rem 'Raleway', sans-serif;
 }
 
-.font-7m{
-  font: 500 3.75rem 'Raleway', sans-serif;
+.font-6m{
+  font: 500 3.25rem 'Raleway', sans-serif;
 }
 
 @media (max-width: 750px){
