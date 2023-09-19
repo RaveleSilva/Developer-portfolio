@@ -35,6 +35,22 @@
 
 @media (max-width: 750px){
   .font-6n{
-    font: 400 3rem 'Raleway', sans-serif;
+    font: 400 2.5rem 'Raleway', sans-serif;
+  }
+
+  .font-5m{
+    font: 500 2rem 'Raleway', sans-serif;
+  }
+
+  .font-3b{
+    font: 700 1.5rem 'Raleway', sans-serif;
+  }
+
+  .font-2n {
+    font: 400 1rem/1.5 'Raleway', sans-serif;
+  }
+
+  .font-2sb{
+    font: 600 1rem 'Raleway', sans-serif;
   }
 }
