@@ -10,7 +10,7 @@
 }
 
 .font-3sb{
-  font: 600 2rem 'Raleway', sans-serif;
+  font: 600 1.5rem 'Raleway', sans-serif;
 }
 
 .font-3b{
@@ -44,6 +44,10 @@
 
   .font-3b{
     font: 700 1.5rem 'Raleway', sans-serif;
+  }
+
+  .font-3sb{
+    font: 600 1.2rem 'Raleway', sans-serif;
   }
 
   .font-2n {

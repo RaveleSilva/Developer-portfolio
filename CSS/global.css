@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -22,7 +26,7 @@ button{
 
 .container {
   max-width: 1440px;
-  padding: 20px 40px;
+  padding: 40px;
   margin: auto;
 }
 
@@ -34,11 +38,11 @@ button{
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 997;
-  display: none;
+  visibility: hidden;
 }
 
 .modal.active{
-  display: initial;
+  visibility: visible;
 }
 
 @media (max-width: 750px){
