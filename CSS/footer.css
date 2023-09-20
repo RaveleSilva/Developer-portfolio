@@ -17,6 +17,11 @@
   margin-top: 20px;
 }
 
+.footer-infos a:hover{
+  color: var(--c0);
+  transition: 0.4s;
+}
+
 .footer-social img{
   width: 32px;
 }
