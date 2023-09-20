@@ -1,13 +1,13 @@
-.projects-bg{
-  background-color: var(--c4);
-}
-
 .projects{
   padding-top: 60px;
   padding-bottom: 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px 20px;
+  gap: 60px 20px;
+  background-color: var(--c4);
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .projects h2{
@@ -21,8 +21,11 @@
 
 .project img{
   margin-bottom: 12px;
-  border-radius: 12px;
   transition: 0.4s;
+  border-radius: 4px;
+  height: 25vw;
+  object-fit: cover;
+  object-position: left;
 }
 
 .project:hover.project img{
@@ -34,7 +37,7 @@
     grid-template-columns: 1fr 1fr;
     padding-top: 40px;
     padding-bottom: 40px;
-    gap: 28px 20px;
+    gap: 40px 20px;
   }
 
   .projects h2{
@@ -43,6 +46,5 @@
 
   .project img{
     margin-bottom: 8px;
-    border-radius: 4px;
   }
 }

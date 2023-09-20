@@ -5,6 +5,8 @@
   background-position: center right;
   position: relative;
   border-bottom: 1px solid var(--c2);
+  display: flex;
+  align-items: center;
 }
 
 .home-text{
@@ -24,16 +26,17 @@
   border-radius: 4px;
   cursor: pointer;
   transition: 0.4s;
-  background-image: linear-gradient(to right, var(--primary), rgb(165, 69, 255));
   border: 2px solid transparent;
   font-weight: bold;
   letter-spacing: 1px;
+  border: 2px solid var(--primary);
+  color: var(--primary2);
+  background: transparent;
 }
 
 .home-buttons button:hover{
-  background: transparent;
-  border: 2px solid var(--primary);
-  color: var(--primary2);
+  color: var(--c4);
+  background: linear-gradient(to right, var(--primary), rgb(124, 84, 255));
 }
 
 .download-cv{
@@ -63,6 +66,7 @@
   gap: 40px;
   justify-items: center;
   padding-bottom: 80px;
+  padding-top: 40px;
 }
 
 .tec{
