@@ -9,12 +9,16 @@
   font: 600 1.25rem 'Raleway', sans-serif;
 }
 
+.font-3n{
+  font: 400 1.75rem 'Raleway', sans-serif;
+}
+
 .font-3sb{
   font: 600 1.5rem 'Raleway', sans-serif;
 }
 
 .font-3b{
-  font: 700 2rem 'Raleway', sans-serif;
+  font: 700 1.75rem 'Raleway', sans-serif;
 }
 
 .font-5n{
@@ -43,11 +47,15 @@
   }
 
   .font-3b{
-    font: 700 1.5rem 'Raleway', sans-serif;
+    font: 700 1.4rem 'Raleway', sans-serif;
   }
 
   .font-3sb{
     font: 600 1.2rem 'Raleway', sans-serif;
+  }
+
+  .font-3n{
+    font: 400 1.2rem 'Raleway', sans-serif;
   }
 
   .font-2n {

@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center right;
   position: relative;
-  border-bottom: 2px solid var(--c2);
+  border-bottom: 1px solid var(--c2);
 }
 
 .home-text{
