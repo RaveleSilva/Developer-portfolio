@@ -21,24 +21,6 @@
   gap: 40px;
 }
 
-.home-buttons button{
-  padding: 12px 24px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: 0.4s;
-  border: 2px solid transparent;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border: 2px solid var(--primary);
-  color: var(--primary2);
-  background: transparent;
-}
-
-.home-buttons button:hover{
-  color: var(--c4);
-  background: linear-gradient(to right, var(--primary), rgb(124, 84, 255));
-}
-
 .download-cv{
   display: flex;
   align-items: center;

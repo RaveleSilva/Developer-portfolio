@@ -11,6 +11,7 @@
 
 .footer-text p{
   max-width: 38ch;
+  margin-bottom: 40px;
 }
 
 .footer-infos h3{
@@ -41,6 +42,39 @@
   gap: 40px;
 }
 
+.footer-form{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 20px;
+}
+
+.footer-form h1{
+  margin-bottom: 20px;
+}
+
+.footer-form input,
+.footer-form textarea{
+  padding: 16px 20px;
+  padding-right: 0px;
+  border: none;
+  border-bottom: 1px solid var(--c2);
+  background-color: var(--c3);
+}
+
+.footer-form textarea{
+  margin-bottom: 12px;
+}
+
+.footer-form input::placeholder,
+.footer-form textarea::placeholder{
+  color: var(--c0);
+}
+
+.footer-form button{
+  margin: 0 auto;
+}
+
 @media (max-width: 950px){
   .footer-credits{
     flex-direction: column;
@@ -48,9 +82,14 @@
   }
 }
 
-@media (max-width: 450px){
+@media (max-width: 750px){
   .footer{
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px){
+  .footer{
     gap: 20px;
   }
 

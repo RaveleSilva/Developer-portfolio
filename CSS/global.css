@@ -22,6 +22,22 @@ img {
 
 button{
   width: max-content;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+  border: 2px solid transparent;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 2px solid var(--primary);
+  color: var(--primary2);
+  background: transparent;
+  font: 600 1.25rem 'Raleway', sans-serif;
+}
+
+button:hover{
+  color: var(--c4);
+  background: linear-gradient(to right, var(--primary), rgb(124, 84, 255));
 }
 
 .container {
@@ -49,5 +65,9 @@ button{
 @media (max-width: 750px){
   .container {
     padding: 20px;
+  }
+
+  button{
+    font: 600 1rem 'Raleway', sans-serif;
   }
 }
