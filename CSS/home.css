@@ -61,7 +61,7 @@
 @media (max-width: 950px){
   .home{
     background-size: cover;
-    background-image: url(../img/intro-bg-mobile.png);
+    background-image: url(../img/intro-bg-mobile.webp);
     background-position: right right;
   }
 
