@@ -6,7 +6,7 @@
   border-bottom: 1px solid var(--c2);
   display: flex;
   align-items: center;
-  background-image: url(../img/intro-img.png);
+  background-image: url(../img/intro-img.webp);
 }
 
 .home-text{
