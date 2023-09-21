@@ -15,13 +15,14 @@ export default function menuMobile() {
     }
   }
 
-  function openMenu() {
+  function toggleMenu() {
     menuNav.classList.toggle('active');
     menuButton.classList.toggle('active');
     modal.classList.toggle('active')
   }
 
-  menuButton.addEventListener('click', openMenu);
+  modal.addEventListener('click', toggleMenu);
+  menuButton.addEventListener('click', toggleMenu);
   window.addEventListener('load', inserirSocialHeader);
   window.addEventListener('resize', inserirSocialHeader);
 }

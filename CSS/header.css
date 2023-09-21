@@ -9,6 +9,7 @@
   display: none;
   width: 48px;
   height: 48px;
+  right: 20px;
   cursor: pointer;
   background-image: url(../img/menu-hamburger.svg);
   background-position: center;
