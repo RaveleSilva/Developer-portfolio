@@ -20,7 +20,7 @@ img {
   display: block;
 }
 
-button, [type="submit"]{
+button{
   width: max-content;
   padding: 12px 24px;
   border-radius: 4px;
@@ -35,12 +35,8 @@ button, [type="submit"]{
   font: 600 1.25rem 'Raleway', sans-serif;
 }
 
-[type="submit"]{
-  margin: 0 auto;
-}
 
-
-button:hover, [type="submit"]:hover{
+button:hover{
   color: var(--c4);
   background: linear-gradient(to right, var(--primary), rgb(124, 84, 255));
 }
