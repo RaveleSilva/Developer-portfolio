@@ -64,14 +64,16 @@ button:hover{
 }
 
 [data-anima="scroll"] {
-  transform: translate(-1400px);
   opacity: 0;
-  transition: 1s;
 }
 
 [data-anima="scroll"].visible{
-  transform: translate(0);
-  opacity: 1;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
 
 @media (max-width: 750px){
