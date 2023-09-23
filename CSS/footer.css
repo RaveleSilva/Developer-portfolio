@@ -53,8 +53,7 @@
   margin-bottom: 20px;
 }
 
-.footer-form input,
-.footer-form textarea{
+#name, #email, #message{
   padding: 16px 20px;
   padding-right: 0px;
   border: none;
@@ -62,17 +61,12 @@
   background-color: var(--c3);
 }
 
-.footer-form textarea{
+#message{
   margin-bottom: 12px;
 }
 
-.footer-form input::placeholder,
-.footer-form textarea::placeholder{
+#name::placeholder, #email::placeholder, #message::placeholder{
   color: var(--c0);
-}
-
-.footer-form button{
-  margin: 0 auto;
 }
 
 @media (max-width: 950px){
