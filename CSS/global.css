@@ -35,6 +35,7 @@ button{
   font: 600 1.25rem 'Raleway', sans-serif;
 }
 
+
 button:hover{
   color: var(--c4);
   background: linear-gradient(to right, var(--primary), rgb(124, 84, 255));
@@ -60,6 +61,17 @@ button:hover{
 
 .modal.active{
   visibility: visible;
+}
+
+[data-anima="scroll"] {
+  transform: translate(-1400px);
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-anima="scroll"].visible{
+  transform: translate(0);
+  opacity: 1;
 }
 
 @media (max-width: 750px){
