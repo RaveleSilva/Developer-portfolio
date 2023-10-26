@@ -79,4 +79,12 @@
   .sobre-text{
     grid-template-columns: 1fr;
   }
+
+  .sobre-text h2{
+    text-align: center;
+  }
+
+  .sobre-img{
+    width: 200px;
+  }
 }
