@@ -41,6 +41,17 @@
   transition: 0.4s;
 }
 
+.projetos-link{
+  padding: 10px;
+  border-bottom: 2px solid var(--primary);
+  width: max-content;
+}
+
+.projetos-link:hover{
+  color: var(--primary);
+  transition: 0.4s;
+}
+
 @media (max-width: 750px){
   .projects{
     grid-template-columns: 1fr 1fr;
