@@ -1,8 +1,12 @@
 .footer{
-  display: grid;
-  grid-template-columns: 1.3fr 1fr;
   gap: 60px 40px;
   padding-top: 40px;
+}
+
+.footer-text{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
 
 .footer-text h2{
@@ -42,38 +46,6 @@
   gap: 40px;
 }
 
-.footer-form{
-  display: flex;
-  flex-direction: column;
-  max-width: 300px;
-  gap: 20px;
-}
-
-.footer-form h1{
-  margin-bottom: 20px;
-}
-
-.footer-form input,
-.footer-form textarea{
-  padding: 16px 20px;
-  padding-right: 0px;
-  border: none;
-  border-bottom: 1px solid var(--c2);
-  background-color: var(--c3);
-}
-
-.footer-form textarea{
-  margin-bottom: 12px;
-}
-
-.footer-form input::placeholder,
-.footer-form textarea::placeholder{
-  color: var(--c0);
-}
-
-.footer-form button{
-  margin: 0 auto;
-}
 
 @media (max-width: 950px){
   .footer-credits{
@@ -85,6 +57,12 @@
 @media (max-width: 750px){
   .footer{
     grid-template-columns: 1fr;
+  }
+
+  .footer-text{
+    grid-template-columns: 1fr;
+    gap: 0px;
+    margin-bottom: 40px;
   }
 }
 
